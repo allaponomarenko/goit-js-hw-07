@@ -9,5 +9,9 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             output.textContent = 'Anonymous';
         }
+
+        console.log(`Current input value: "${input.value}"`);
+        console.log(`Trimmed input value: "${trimmedInput}"`);
+        console.log(`Displayed name: "${output.textContent}"`);
     });
 });
