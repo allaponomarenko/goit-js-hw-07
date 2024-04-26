@@ -146,8 +146,8 @@ h1 {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 400px; /* Обмежуємо ширину форми */
-  margin: auto; /* Центрування форми по вертикалі */
+  max-width: 400px; 
+  margin: auto;
   padding: 20px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   background-color: #ffffff;
@@ -156,8 +156,8 @@ h1 {
 
 .login-form label {
   display: flex;
-  flex-direction: column; /* Стовпчиковий розклад для кращої структури */
-  margin-bottom: 10px; /* Відступ між лейблами */
+  flex-direction: column;
+  margin-bottom: 10px;
 }
 
 .login-form input {
@@ -186,7 +186,16 @@ h1 {
 
 
 .widget {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  width: 345px;
+  height: 280px;
+  
+  margin: auto;
+  padding: 100px 88px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  background-color: #ffffff;
+  border-radius: 8px;
 }
 
 .widget p {
@@ -199,8 +208,13 @@ line-height: 1.5; /* 150% */
 letter-spacing: 0.64px;
 width: 169px;
 height: 24px;
-gap: 0px;
-opacity: 0px;
+margin-left: 15px;
+margin-bottom: 15px;
+margin-top: 0;
+
+
+
+
 
 }
 .color {
@@ -220,4 +234,7 @@ opacity: 0px;
   border-radius: 8px;
   cursor: pointer;
   margin-top: 10px;
+  margin-left: 10px;
+  width: 148px;
+  height: 40px;
 }
