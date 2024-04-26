@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
       const newColor = getRandomHexColor();
       document.body.style.backgroundColor = newColor;
       colorSpan.textContent = newColor;
+
+      console.log(`New background color: ${newColor}`);
   });
 });
 

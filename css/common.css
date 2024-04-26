@@ -97,6 +97,28 @@ height: 300px;
 /*---------------------------- task-3----------------------------*/
 
 
+#name-input {
+
+  color: #2E2F42;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  margin: 0 0 0 16px;
+  width: 208px;
+  height: 24px;
+  top: 8px;
+  left: 16px;
+  border-radius: 4px;
+  width: 360px;
+height: 40px;
+flex-shrink: 0;
+  border: 1px solid #808080;
+  padding-left: 16px;
+  margin-left: 500px;
+}
+
 h1 {
   color: #2E2F42;
   font-size: 24px;
@@ -104,7 +126,7 @@ h1 {
   font-weight: 600;
   line-height: 1.33;
   letter-spacing: 0.96px;
-  margin: 0 0 0 16px;
+  margin-left: 500px;
   width: 248px;
   height: 32px;
 
@@ -156,4 +178,46 @@ h1 {
 
 .login-form button:hover {
   background-color: #0056b3;
+}
+
+
+
+/*---------------------------- task-5----------------------------*/
+
+
+.widget {
+  display: block;
+}
+
+.widget p {
+  color: #2E2F42;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.64px;
+width: 169px;
+height: 24px;
+gap: 0px;
+opacity: 0px;
+
+}
+.color {
+}
+
+.change-color {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  padding: 8px 16px;
+  background-color: #4E75FF;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
 }
