@@ -65,25 +65,14 @@ li {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
- 
   margin: auto;
-  
 }
 
 .gallery li {
- 
   border: none;
-  
-padding-top: 48px;
-
+  padding-top: 48px;
   width: 360px;
-height: 300px;
-
-
-
-
-
-  
+  height: 300px;
 }
 
 .gallery img {
@@ -98,7 +87,6 @@ height: 300px;
 
 
 #name-input {
-
   color: #2E2F42;
   font-size: 16px;
   font-style: normal;
@@ -112,8 +100,8 @@ height: 300px;
   left: 16px;
   border-radius: 4px;
   width: 360px;
-height: 40px;
-flex-shrink: 0;
+  height: 40px;
+  flex-shrink: 0;
   border: 1px solid #808080;
   padding-left: 16px;
   margin-left: 500px;
@@ -129,19 +117,14 @@ h1 {
   margin-left: 500px;
   width: 248px;
   height: 32px;
-
 }
-
 
 
 
 
 /*---------------------------- task-4----------------------------*/
 
-/* Стилі для тіла сторінки */
 
-
-/* Стилі для форми */
 .login-form {
   display: flex;
   flex-direction: column;
@@ -189,8 +172,7 @@ h1 {
   display: flex;
   flex-direction: column;
   width: 345px;
-  height: 280px;
-  
+  height: 280px; 
   margin: auto;
   padding: 100px 88px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -199,26 +181,20 @@ h1 {
 }
 
 .widget p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+  width: 169px;
+  height: 24px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  margin-top: 0;
   color: #2E2F42;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.5; /* 150% */
-letter-spacing: 0.64px;
-width: 169px;
-height: 24px;
-margin-left: 15px;
-margin-bottom: 15px;
-margin-top: 0;
-
-
-
-
-
 }
-.color {
-}
+
 
 .change-color {
   font-family: Montserrat;
@@ -237,4 +213,91 @@ margin-top: 0;
   margin-left: 10px;
   width: 148px;
   height: 40px;
+}
+
+
+
+/*---------------------------- task-6----------------------------*/
+
+#controls {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  align-items: baseline;
+  border-radius: 8px;
+  background: #FFF;
+  width: 150px;
+  height: 40px;
+  border: 1px;
+  gap: 16px;
+  margin-left: 600px;
+
+
+}
+
+.controls-input-number {
+  color: #2E2F42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; 
+  width: 6px;
+  height: 24px;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  width: 150px;
+  height: 40px;
+  padding: 8px 72px 8px 72px;
+  border-radius: 8px;
+  border: 1px solid #808080;
+}
+
+.create-button-class {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  height: 40px;
+  border: 1px solid #808080;
+  letter-spacing: 0.04em;
+  text-align: left;
+  display: flex;
+  width: 120px;
+  padding: 8px 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #4E75FF;
+}
+
+.destroy-button-class {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: left;
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  width: 120px;
+  height: 40px;
+  background: #FF4E4E;
+  border: 1px solid #808080;
+}
+
+#boxes {
+  border: 1px solid #2aec4b;
+  background-color: #fafafa;
 }

@@ -26,7 +26,22 @@ const images = [
   }
 ];
 
+console.log('Images to load:', images.length);
+
 const gallery = document.querySelector('.gallery');
-    const markup = images.map(image => `<li><img src="${image.url}" alt="${image.alt}"></li>`).join('');
-    gallery.innerHTML = markup;
+  if (!gallery) {
+    console.error('Gallery element not found!'); 
+    return;
+  }
+
+  const markup = images.map(image => {
+    console.log(`Processing image - URL: ${image.url}, ALT: ${image.alt}`);
+    return `<li><img src="${image.url}" alt="${image.alt}"></li>`;
+  }).join('');
+
+  console.log('Generated markup:', markup);
+
+  gallery.innerHTML = markup;
+
+  console.log('Images have been successfully loaded into the gallery.');
 });
