@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const input = document.querySelector('#controls input[type="number"]');
     const amount = Number(input.value);
     if (amount < 1 || amount > 100) {
-      console.warn('The number of boxes should be between 1 and 100. Input was:', amount);
+      console.warning('The number of boxes should be between 1 and 100. Input was:', amount);
       return;
     }
 
