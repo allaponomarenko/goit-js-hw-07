@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', function() {
       return;
     }
 
-    console.log(`Creating ${amount} boxes...`);
     destroyBoxes();
     const boxesContainer = document.getElementById('boxes');
     let currentSize = 30;
@@ -23,18 +22,14 @@ document.addEventListener('DOMContentLoaded', function() {
       box.style.backgroundColor = getRandomHexColor();
       boxesContainer.appendChild(box);
       currentSize += 10;
-      console.log(`Box ${i + 1}: ${currentSize - 10}px square, color: ${box.style.backgroundColor}`);
     }
 
     input.value = '';
-    console.log('Finished creating boxes. Input cleared.');
   }
 
   function destroyBoxes() {
     const boxesContainer = document.getElementById('boxes');
-    console.log('Destroying all boxes...');
     boxesContainer.innerHTML = '';
-    console.log('All boxes have been destroyed.');
   }
 
   const createButton = document.querySelector('[data-create]');
